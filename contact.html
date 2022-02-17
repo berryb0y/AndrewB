@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <link
+      rel="shortcut icon"
+      href="http://wikipedia.com/static/favicon/wikipedia.ico"
+      type="image/x-icon"
+    />
+    <script src="js/tota11y.min.js"></script>
+    <title>Contact Andrew Berry</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <img
+        class="profile-logo page-header__item"
+        src="img/logo.png"
+        alt="Andrew Berry text logo"
+      />
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list__item nav navigation-list__item--active"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <div class="content-section">
+      <h1>Contact</h1>
+      <ul class="content-section__address">
+        <li>Andrew Berry</li>
+        <li>Street</li>
+        <li>Zip City</li>
+        <li>Country</li>
+      </ul>
+      <a href="tel:5155377508">Tel 515-537-7508</a>
+      <a href="mailto:ab4537@gmail.com">ab4537@gmail.com</a>
+      <a href="mailto:office@careerfoundry.com">Contact me</a>
+    </div>
+    <form id="contact.form" method="post">
+      <label for="email" class="standard-label">E-mail: </label>
+      <input id="email" type="email" required />
+
+      <label for="phone-number" class="standard-label">Telephone: </label>
+      <input id="phone-number" type="tel" pattern="d{3}[\-]\d{3}[\-]\d{4}" />
+
+      <label for="message" class="standard-label">Message: </label>
+      <textarea id="message" maxlength="240" required></textarea>
+
+      <input type="submit" value="Send message" />
+    </form>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <img class="icon" src="img/githubicon.svg" alt="Github logo" />
+        <img class="icon" src="img/twitterbirdicon.svg" alt="Twitter logo" />
+        <img class="icon" src="img/linkedinicon.svg" alt="LinkedIn logo" />
+      </div>
+    </footer>
+  </body>
+</html>
