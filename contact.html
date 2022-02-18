@@ -61,14 +61,14 @@
       <h1>Contact</h1>
       <ul class="content-section__address">
         <li>Andrew Berry</li>
-        <li>Street</li>
-        <li>Zip City</li>
-        <li>Country</li>
-      </ul>
-      <a href="tel:5155377508">Tel 515-537-7508</a>
-      <a href="mailto:ab4537@gmail.com">ab4537@gmail.com</a>
-      <a href="mailto:office@careerfoundry.com">Contact me</a>
-    </div>
+        <li>6009 N jefferson St, Apt 6</li>
+        <li>64118</li>
+        <li>USA</li>
+      
+        <li><a href="tel:5155377508">Tel 515-537-7508</a></li>
+          <li><a href="mailto:ab4537@gmail.com">ab4537@gmail.com</a></li>
+            <li><a href="mailto:office@careerfoundry.com">Contact me</a></li>
+    </ul>
     <form id="contact.form" method="post">
       <label for="email" class="standard-label">E-mail: </label>
       <input id="email" type="email" required />
@@ -77,14 +77,16 @@
       <input
         id="phone-number"
         type="tel"
-        pattern="d{3}[\-]\d{3}[\-]\d{4}"
         placeholder="xxx-xxx-xxxx"
+        minlength="10"
+        maxlength="14"
       />
 
       <label for="message" class="standard-label">Message: </label>
       <textarea id="message" maxlength="240" required></textarea>
 
       <input type="submit" value="Send message" />
+    </div>
     </form>
     <footer class="page-footer">
       <p>Find me on</p>
