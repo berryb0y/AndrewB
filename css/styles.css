@@ -117,6 +117,9 @@ button:focus,
   display: inline-block;
   width: 33%;
 }
+.grid__item__left{
+  
+}
 /* grid fallback end */
 @supports (display: grid) {
   .grid {
