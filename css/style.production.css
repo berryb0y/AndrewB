@@ -71,7 +71,11 @@ button {
 }
 .pokeball-png{
   width:100%
-
+}
+.chatapp-png{
+  padding-left: 10px;
+  width: 90%;
+  margin-bottom: 2rem;
 }
 .button {
   border: none;
