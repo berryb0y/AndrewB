@@ -18,7 +18,7 @@ body {
   line-height: 1.6;
 }
 p {
-  margin-left: .5rem;
+  font-size: 1.5rem;
 }
 h1,
 h2,
@@ -27,13 +27,16 @@ h3 {
   margin-left: .5rem;
 }
 h1 {
-  font-size: 30px;
+  font-size: 4rem;
 }
 h2 {
-  font-size: 24px;
+  font-size: 3rem;
 }
 h3 {
-  font-size: 18px;
+  font-size: 2.5rem;
+}
+h4 {
+  font-size: 2rem;
 }
 a {
   color: #357b70;
@@ -76,6 +79,17 @@ button {
   padding-left: 10px;
   width: 90%;
   margin-bottom: 2rem;
+}
+.meetapplogo{
+  padding-left: 10px;
+  width: 90%;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
+.chatappphoto{
+  width: 40rem;
+  margin-bottom: 3rem;
+  border: gray solid 1px;
 }
 .button {
   border: none;
@@ -132,7 +146,7 @@ button:focus,
   text-align: center;
 }
 .profile {
-  max-width: 700px;
+  max-width: 60rem;
   margin: 0 auto;
 }
 .projects{
@@ -236,7 +250,7 @@ button:focus,
   align-items: center;
 }
 .about-section__info {
-  max-width: 25rem;
+  max-width: 60rem;
 }
 .about-section__table {
   padding-top: 15px;
