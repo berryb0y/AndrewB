@@ -37,16 +37,20 @@ h3 {
 h4 {
   font-size: 2rem;
 }
-a {
-  color: #357b70;
-}
-a:visited {
-  color: #357b70;
-}
 a:hover,
 a:focus {
   text-decoration: none;
+  color: #99d19c;
+  transition: .5s;
 }
+a {
+  color: #357b70;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: .2s;
+}
+
+
 a:active {
   color: #489c79;
 }
@@ -66,6 +70,7 @@ button {
   -o-transition-property: opacity;
   transition-property: opacity;
 }
+
 .social-media{
   margin-bottom: 2rem;
 }
@@ -125,10 +130,21 @@ button:focus,
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 50px;
+  /* border: #000501 solid 1px; */
+  background-color: #99d19c;
+  transition: .2s;
+}
+.navigation-list li:hover {
+  background-color:  #357b70;
+  transition: .5s;
 }
 .navigation-list__item--active {
   text-decoration: none;
 }
+
 .profile__portrait {
   float: left;
   width: 250px;
@@ -282,11 +298,16 @@ button:focus,
 }
 .icon {
   width: 30px;
+  transition: .2s;
+}
+.icon-padding{
+  padding: 5px;
 }
 .icon:hover {
   -webkit-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
+  transition: .2s
 }
 /* Animations */
 
