@@ -50,7 +50,6 @@ a {
   transition: .2s;
 }
 
-
 a:active {
   color: #489c79;
 }
@@ -164,7 +163,7 @@ button:focus,
 }
 .profile {
   max-width: 60rem;
-  margin: 0 auto;
+  margin: 0 auto 10rem auto;
 }
 .projects{
   box-shadow: black 0 0 10px 0;
